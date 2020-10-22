@@ -1,7 +1,12 @@
 import React from 'react';
+import Header from './components/Header';
 
 const GitHub = () => {
-  return <div>GitHub</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 };
 
 export default GitHub;

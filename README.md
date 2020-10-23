@@ -1,20 +1,15 @@
 # GitHub Clone - Apto
 
+![Preview-Screens](https://raw.githubusercontent.com/bernalvinicius/github-clone/master/src/assets/images/github-clone.png)
 
 
 ## Why?
 
 This project is part of the selection process for Front-End Developer sent by Apto.
 
-
-
 It is a project that consumes the GitHub API and has a layout similar to GitHub. As much as possible, I tried to be faithful to GitHub's design in its October/2020 desktop version.
 
-
-
 Email-me: vini_bernal@hotmail.com
-
-
 
 Connect with me at [LinkedIn](https://www.linkedin.com/in/vin%C3%ADcius-bernal-19254027/)
 

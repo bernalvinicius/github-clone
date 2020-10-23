@@ -31,9 +31,9 @@ const Repo = () => {
     return <h1>{data.error}</h1>;
   }
 
-  if (!data?.repoAPI) {
-    return <h1>Loading...</h1>;
-  }
+  // if (!data?.repoAPI) {
+  //   return <h1>Loading...</h1>;
+  // }
 
   return (
     <div className={classes.container}>
@@ -47,23 +47,23 @@ const Repo = () => {
           {reponame}
         </Link>
       </div>
-      <p className={classes.description}>{data.repoAPI.description}</p>
+      <p className={classes.description}>{data.repoAPI?.description}</p>
       <div>
         <div className={classes.botCard}>
           <div className={classes.botItem}>
             <StarBorderIcon className={classes.iconBot} />
             <span className={classes.spanBot}>
-              {data.repoAPI.stargazers_count}
+              {data.repoAPI?.stargazers_count}
             </span>
             <span className={classes.spanBot}>stars</span>
           </div>
           <div className={classes.botItem}>
             <ShareIcon className={classes.iconBot} />
-            <span className={classes.spanBot}>{data.repoAPI.forks}</span>
+            <span className={classes.spanBot}>{data.repoAPI?.forks}</span>
             <span className={classes.spanBot}>forks</span>
           </div>
         </div>
-        <Link className={classes.button} to={data.repo.html_url}>
+        <Link className={classes.button} to={'/'}>
           <GitHubIcon className={classes.iconBtn} />
           <span className={classes.spanbutton}>View on GitHub</span>
         </Link>

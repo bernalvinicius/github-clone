@@ -1,4 +1,6 @@
+import 'react-calendar-heatmap/dist/styles.css';
 import React from 'react';
+
 import './App.css';
 import GitHub from './features';
 

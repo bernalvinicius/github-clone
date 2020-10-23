@@ -1,7 +1,8 @@
-import React from 'react';
-import { useStyles } from './styles';
-import Heatmap from 'react-calendar-heatmap';
 import { subYears } from 'date-fns';
+import React from 'react';
+import Heatmap from 'react-calendar-heatmap';
+
+import { useStyles } from './styles';
 
 const RandomCalendar = () => {
   const classes = useStyles();

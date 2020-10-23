@@ -10,8 +10,8 @@ const GitHub = () => {
     <div>
       <Header />
       <Switch>
-        <Route path="/" component={Profile} />
-        <Route path="/:username" component={Profile} />
+        <Route exact path="/" component={Profile} />
+        <Route exact path="/:username" component={Profile} />
         <Route path="/:username/:reponame" component={Repo} />
       </Switch>
     </div>

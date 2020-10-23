@@ -1,4 +1,3 @@
-import { subYears } from 'date-fns';
 import React from 'react';
 import Heatmap from 'react-calendar-heatmap';
 

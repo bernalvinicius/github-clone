@@ -1,6 +1,7 @@
-import React from 'react';
-import { useStyles } from './styles';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import React from 'react';
+
+import { useStyles } from './styles';
 
 const Footer = () => {
   const classes = useStyles();
